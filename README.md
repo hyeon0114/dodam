@@ -34,6 +34,11 @@
 ![다운로드](https://github.com/user-attachments/assets/8c7d3d02-6620-4440-8df7-b99d3f128728)
 
 
+## 개발 일정
+![image](https://github.com/user-attachments/assets/8b36a894-5911-4095-9ea0-c5efb63fb797)
+
+
+
 ## 역할 분담
 - **김세현(팀장)**
   - 시스템 구축
