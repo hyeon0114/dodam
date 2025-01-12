@@ -26,6 +26,9 @@
 - 회원정보에 입력한 식품에 대해 대체가능한 식품 추천
 - 상품 상세페이지에서 해당되는 상품의 성분표를 그래프로 표시해 한끼 권장 영양성분을 기준으로 부족한 영양소를 확인할 수 있도록 보여줌.
 
+## USECASE
+![dodam drawio](https://github.com/user-attachments/assets/b7555b92-b997-4d08-af2e-597e09cc20b0)
+
 
 ## ERD 다이어그램
 ![다운로드](https://github.com/user-attachments/assets/8c7d3d02-6620-4440-8df7-b99d3f128728)
