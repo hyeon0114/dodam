@@ -32,7 +32,7 @@ try {
 
 <html>
 <head>
-<title>»ç¿ëÀÚ ID Áßº¹ °Ë»ç</title>
+<title>ï¿½ï¿½ï¿½ï¿½ï¿½ ID ï¿½ßºï¿½ ï¿½Ë»ï¿½</title>
 <link rel="stylesheet" href="style.css">
 <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
 
@@ -40,6 +40,9 @@ try {
 
 <body bgcolor="#ffffff">
 <br>
+<div>
+ì•ˆë…•
+</div>
 <table>
     <tr>
         <td height="25" align=center >
@@ -51,16 +54,16 @@ try {
         <td height="30" align=center>
   <%  
 		   if(isExist)  
-                 out.println("ÀÌ¹Ì Á¸ÀçÇÏ´Â IDÀÔ´Ï´Ù.");
+                 out.println("ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ IDï¿½Ô´Ï´ï¿½.");
 	       else 
-                 out.println("»ç¿ë °¡´ÉÇÑ IDÀÔ´Ï´Ù. ");
+                 out.println("ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ IDï¿½Ô´Ï´ï¿½. ");
   %>
         </td>
     </tr>
 
     <tr>
         <td id="close">
-            <a href="javascript:window.close()"><div id="closeCheck">´Ý±â</div></a>
+            <a href="javascript:window.close()"><div id="closeCheck">ï¿½Ý±ï¿½</div></a>
         </td>
     </tr>
 </table>
