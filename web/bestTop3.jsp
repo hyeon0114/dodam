@@ -1,8 +1,8 @@
-<%@ page contentType="text/html;charset=euc-kr" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.sql.*" %> 
 <html>
 <head>
-	<title>µµ´ãµµ´ã</title>
+	<title>ï¿½ï¿½ï¿½ãµµï¿½ï¿½</title>
 <link rel="stylesheet" href="style.css">
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -76,7 +76,7 @@ try {
 	<tr>
 		<td rowspan=6 style="width:20px;"><%=i%></td>
 		<td rowspan=6 id="new_img2"><a href="viewDetailProduct.jsp?prdNo=<%=no%>"><img src="image/f_img/<%=no%>.png"></a></td>
-		<td colspan=3><div class="m_new_T2"><%=prdname%> <span style="float:right; font-size:25px;"><%=price%> ¿ø</span></div></td>
+		<td colspan=3><div class="m_new_T2"><%=prdname%> <span style="float:right; font-size:25px;"><%=price%> ï¿½ï¿½</span></div></td>
 	</tr>
 	<tr>
 	<td colspan=3>
@@ -85,7 +85,7 @@ try {
 		</div></div></td>
 	</tr>
 	<tr>
-			<td id="ingre_P">Åº¼öÈ­¹°</td>
+			<td id="ingre_P">Åºï¿½ï¿½È­ï¿½ï¿½</td>
 			<td id="percent"><%=rcP%> % </td>
 			<td id="ctg_per">
 			<div class="progress-bar">           
@@ -94,7 +94,7 @@ try {
 			</td>
 	</tr>
 	<tr>
-			<td id="ingre_P">Áö¹æ</td>
+			<td id="ingre_P">ï¿½ï¿½ï¿½ï¿½</td>
 			<td id="percent"><%=rfP%> %</td>
 			<td id="ctg_per">
 			<div class="progress-bar">           
@@ -103,7 +103,7 @@ try {
 			</td>
 	</tr>
 	<tr>
-			<td id="ingre_P">´Ü¹éÁú</td>
+			<td id="ingre_P">ï¿½Ü¹ï¿½ï¿½ï¿½</td>
 			<td id="percent"><%=rpP%> %</td>
 			<td id="ctg_per">
 			<div class="progress-bar">           
@@ -111,7 +111,7 @@ try {
 			</div>
 			</td>
 	</tr>
-	<tr><td colspan=3>¾Ë·¹¸£±â À¯¹ß ½ÄÇ° :  <span style="color:orange;">
+	<tr><td colspan=3>ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç° :  <span style="color:orange;">
 		<%
 			String jsql2 = "select * from allgoods where prdNo = ?";   
 			PreparedStatement pstmt2  = con.prepareStatement(jsql2);

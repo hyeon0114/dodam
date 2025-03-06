@@ -1,8 +1,8 @@
-<%@ page contentType="text/html;charset=euc-kr" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.sql.*" %> 
 <html>
 <head>
-	<title>µµ´ãµµ´ã</title>
+	<title>ï¿½ï¿½ï¿½ãµµï¿½ï¿½</title>
 	<link rel="stylesheet" href="style.css">
 	<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -64,7 +64,7 @@ try {
 	  <td colspan=2>
 		<a href="viewDetailProduct.jsp?prdNo=<%=prdno%>">
 	  	<div id="hover_all">
-		¾Ë·¹¸£±â À¯¹ß ½ÄÇ°<br><br>
+		ï¿½Ë·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ç°<br><br>
 	<%
 		String jsql3 = "select * from allgoods where prdNo = ?";   
 		PreparedStatement pstmt3  = con.prepareStatement(jsql3);
@@ -94,7 +94,7 @@ try {
 	</td>
 </tr>
 	<tr><td colspan=2><%=ex%></td></tr>
-	<tr><td><%=prdname%></td><td><%=price%> ¿ø</td></tr>
+	<tr><td><%=prdname%></td><td><%=price%> ï¿½ï¿½</td></tr>
 </table>
 </div>
 <%
