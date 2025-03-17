@@ -8,5 +8,8 @@ public class DodamController {
 
     public void test(){
     String test = "kek";
+        String teste = "kek";
+        String testf = "kek";
+        String testef = "kek";
     }
 }
