@@ -8,8 +8,5 @@ public class DodamController {
 
     public void test(){
     String test = "kek";
-
-
-    String tet = "efefefef";
     }
 }
