@@ -7,7 +7,6 @@ public class DodamController {
     }
 
     public void test(){
-      String test = "kek";
-      int i = 10;
+    String test = "kek";
     }
 }
