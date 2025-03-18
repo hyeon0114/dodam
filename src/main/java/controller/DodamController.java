@@ -6,7 +6,7 @@ public class DodamController {
         return super.toString();
     }
 
-    public void test(String account) {
+    public void testsef(String account) {
 
     }
 
