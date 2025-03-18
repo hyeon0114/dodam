@@ -12,6 +12,6 @@ public class DodamController {
         String testf = "kek";
         String testef = "kek";
 
-        String testef32 = "ㅈㄷㄹ";
+        String testef32 = "하늘보다 넘어짐";
     }
 }
