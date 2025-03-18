@@ -6,6 +6,10 @@ public class DodamController {
         return super.toString();
     }
 
+    public void test(String account) {
+
+    }
+
     public void test(){
     String test = "kek";
         String teste = "kek";
