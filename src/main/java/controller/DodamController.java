@@ -13,5 +13,8 @@ public class DodamController {
         String testef = "kek";
 
         String testef32 = "ㅈㄷㄹ";
+
+
+        String testesf32 = "ㅈㄷㄹ";
     }
 }
