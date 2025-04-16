@@ -23,7 +23,7 @@ public class DodamController {
     public void test2(){
         String test = "kek";
         String teste = "kek";
-        String testf = "kek";
+        String testf = "k234";
         String testef = "kek";
 
         String testef32 = "하늘보다 넘어짐 왜 수정 안됨";
