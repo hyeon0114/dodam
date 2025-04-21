@@ -2,7 +2,7 @@ package controller;
 
 public class TestController {
     public void test () {
-     String a = "tesefsert";
+     String a = "testkk";
     }
 
     public void teset () {
